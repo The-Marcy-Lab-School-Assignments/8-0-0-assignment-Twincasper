@@ -79,13 +79,13 @@ As you build your server, visit http://localhost:8080 (or whatever port number y
 
 - [X] In `index.js`, the `express()` function is used to create an `app`
 - [ ] There are 4 controller functions
-  - [ ] Two controllers send an HTML response (either raw HTML or an HTML file)
+  - [X] Two controllers send an HTML response (either raw HTML or an HTML file)
   - [ ] Two controllers send a data response
   - [ ] One of the controllers uses query parameters in some way (`req.query.parameterName`)
-- [ ] There are 4 GET endpoints
-  - [ ] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
-  - [ ] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
-- [ ] The `app` listens on an available port (I recommend `8080`)
+- [X] There are 4 GET endpoints
+  - [X] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
+  - [X] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
+- [X] The `app` listens on an available port (I recommend `8080`)
 
 ## Part 3 - Deploy
 
