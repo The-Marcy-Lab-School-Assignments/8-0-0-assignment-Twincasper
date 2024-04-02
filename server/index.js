@@ -28,5 +28,5 @@ app.get('/api/champions', serveChampionsData);
 app.get('/api/wrestler', serveWrestlerData);
 
 
-const port = 4321;
+const port = 5500;
 app.listen(port, () => console.log(`listening at http://localhost:${port}`)); 
