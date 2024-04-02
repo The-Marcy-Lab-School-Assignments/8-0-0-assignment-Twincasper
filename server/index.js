@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const serveHomePage = (req, res) => {
-  res.send('<h1>Wrestling stuff here!</h1><p>Explore the exciting world of wrestling!</p>');
+  res.sendFile(__dirname + '/index.html');
 };
 
 const serveFavorites = (req, res) => {
