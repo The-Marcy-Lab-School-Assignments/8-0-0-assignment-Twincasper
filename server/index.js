@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 const serveHomePage = (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(path.join(__dirname, '..', 'index.html'));
 };
 
 const serveFavorites = (req, res) => {
